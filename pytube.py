@@ -18,7 +18,7 @@ except:
 # filters out all the files with "mp4" extension
 mp4files = youtube_obj.streams.filter('mp4')
 
-# to set the name of the file
+# to set the name of the files
 youtube_obj.set_filename('Downloaded Video')
 
 # get the video with the extension and
